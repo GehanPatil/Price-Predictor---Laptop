@@ -83,7 +83,7 @@ if st.button("Pridict Price"):
     ppi=((X_res ** 2)+(Y_res ** 2))**0.5/Screen_size
     query=np.array([company, type, ram, touchscreen, ips, ppi, cpu, hdd, ssd, gpu, os])
 
-    query=query.reshape(1, 12)
+    query=query.reshape(1, 11)
     st.title("The Predicted Price of Laptop = Rs "+str(int(np.exp(pipe.predict(query)[0]))))
 
 
