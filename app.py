@@ -42,7 +42,7 @@ with right_column:
 left_column, right_column = st.columns(2)
 with left_column:
     # screen size
-    Screen_size = st.selectbox("Screen Size (in Inches)", df["Inches"].unique())
+    Screen_size = st.number_input("Screen Size (in Inches)")
 
 with right_column:
     # resolution
