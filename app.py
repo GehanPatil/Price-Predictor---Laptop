@@ -37,7 +37,7 @@ with right_column:
     cpu = st.selectbox("CPU Brand", df["Cpu brand"].unique())
     
 # Line 3 - making 2 cols left_column, right_column
-left_column, middle_column, right_column = st.columns(2)
+left_column, right_column = st.columns(2)
 with left_column:
     # Touchscreen
     touchscreen = st.selectbox("Touchscreen", ["No", "Yes"])
