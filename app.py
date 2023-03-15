@@ -90,3 +90,6 @@ if st.button("Pridict Price"):
 
     
     st.write("#### Thank you for Visiting \nProject by Gehan P")
+    
+if __name__ == "__main__":
+    main()
