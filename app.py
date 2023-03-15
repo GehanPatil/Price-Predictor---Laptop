@@ -88,4 +88,5 @@ if st.button("Pridict Price"):
     query=query.reshape(1, 12)
     st.title("The Predicted Price of Laptop = Rs "+str(int(np.exp(pipe.predict(query)[0]))))
 
-    st.write("## Thank you for Visiting \nProject by Gehan P")
+    
+    st.write("#### Thank you for Visiting \nProject by Gehan P")
